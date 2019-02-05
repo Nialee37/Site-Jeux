@@ -1,0 +1,74 @@
+body{
+	background-image: url(Images/fond.jpg);
+	background-attachment:fixed;
+}
+
+section{
+	margin-right: 25%;
+	margin-top: 100px;
+	margin-left: 25%;
+	height: 400px;
+	background-attachment:fixed;
+	border-radius:50px;
+	background: #505454
+
+
+}
+
+.titre{
+	/*on place le titre au bon endrois*/
+	text-align: center;
+
+}
+
+.image{
+	/* on place les images au bon endrois*/
+	float: left;
+	margin-top: 8%;
+	margin-left: 2%;
+}
+
+.titreBd{
+	font-size:1.5em; 
+	color: #FFFFFF;
+    margin-left: 20%;    
+}
+
+ul.serie-info { 
+	color: #979F9E;
+    list-style-type: none;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+
+.resume {
+	color: white;
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: 230px;
+	margin-right: 50px;	
+}
+
+.style-serie {
+    color: #fe780c;
+    list-style: none;
+}
+
+#menu{	
+	margin-left: 82%;
+	margin-right: 4%;
+	margin-top: -36%;
+	background: #505454
+}
+
+#menu1{
+	color: #fe780c;
+	font-size: 1.3em ;
+	margin-left: 25%;
+}
+
+/*modification de la couleur des liens du site*/
+a:link {text-decoration:none; color:white}
+a:visited {text-decoration:none; color:white}
+
+
