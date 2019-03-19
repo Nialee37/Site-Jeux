@@ -1,14 +1,12 @@
 section{
 	margin-right: 25%;
-	margin-top: 100px;
+	margin-top: 10%;
 	margin-left: 25%;
-	margin-bottom: 50%;
-	height: 400px;
+	//margin-bottom: 25%;
+	height: 45%;
 	background-attachment:fixed;
-	border-radius:50px;
-	background: #505454
-
-
+	border-radius:10%;
+    background-color:hsl(0, 0%, 29%);
 }
 .image{
 	/* on place les images au bon endrois*/
@@ -19,28 +17,23 @@ section{
 
 .titreJeux{
 	font-size: 1.5em;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     margin-left: 60%;
-    padding-top: 8%;    
+    margin-right: 28%;
+    padding-top: 8%;
+    
+    
 }
 
 ul.serie-info { 
-	color: #979F9E;
+	color: hsl(173, 4%, 61%);
     list-style-type: none;
     margin-left: 40%;
+    margin-right: 3%;
     margin-top: 6%;
 }
-
-.resume {
-	color: white;
-	text-align: justify;
-	margin-top: 10px;
-	margin-left: 230px;
-	margin-right: 50px;	
-}
-
 .style-serie {
-    color: #fe780c;
+    color: hsl(27, 99%, 52%);
     list-style: none;
 }
 
@@ -51,7 +44,7 @@ ul.serie-info {
 	margin-top: -15%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background: #505454;
+	background: hsl(180, 2%, 32%);
 }
 
 #menu_Nav1{
