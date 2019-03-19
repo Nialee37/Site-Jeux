@@ -6,9 +6,11 @@
 	</head>
 	<body>
 		<header>
-			<p class="titre"><img src="Images\titre.jpg" alt""/></p>
+			<?php 
+				include "./bande_haut.php";
+			?>
 		</header>
-		<section class="image">
+		<section class="image_A">
 		<?php
 		$compte = 0;
 		echo '<ul>';
@@ -21,7 +23,7 @@
 					echo '<a href="description_Jeux.php?Jeux=' .$compte .'"><img src="ImageJeux/' . $fichier . '" alt=""/>';
 					echo '&nbsp';
 
-						if(($compte % 2) == 1)
+						if(($compte % 3) == 2)
 						{
 							echo '</br></br>';					
 						}
