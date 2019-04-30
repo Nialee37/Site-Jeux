@@ -1,0 +1,11 @@
+body{
+	background-image: url(Images/Construction.jpg);
+	background-attachment:fixed;
+}
+fieldset{
+    margin-right: 80%;
+    border:2px solid hsl(0, 0%, 40%);
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+}
