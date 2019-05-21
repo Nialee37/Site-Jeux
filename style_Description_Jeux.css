@@ -1,15 +1,13 @@
 section{
 	margin-right: 25%;
-	margin-top: 10%;
+	margin-top: 100px;
 	margin-left: 25%;
-	//margin-bottom: 25%;
-	height: 45%;
+	height: 50%;
 	background-attachment:fixed;
-	border-radius:10%;
-    background-color:hsl(0, 0%, 29%);
+	border-radius:50px;
+	background: hsl(180, 2%, 32%)
 }
 .image{
-	/* on place les images au bon endrois*/
 	float: left;
 	margin-top: -9%;
 	margin-left: 5%;
@@ -19,22 +17,24 @@ section{
 	font-size: 1.5em;
     color: hsl(0, 0%, 100%);
     margin-left: 60%;
-    margin-right: 28%;
-    padding-top: 8%;
-    
-    
+    padding-top: 8%;    
 }
 
 ul.serie-info { 
 	color: hsl(173, 4%, 61%);
     list-style-type: none;
-    margin-left: 40%;
     margin-right: 3%;
+    margin-left: 40%;
     margin-top: 6%;
 }
+
 .style-serie {
-    color: hsl(27, 99%, 52%);
+    color: #fe780c;
     list-style: none;
+}
+.lien{
+    color: #fe780c;
+    text-decoration: none;
 }
 
 #menu_Nav{	
@@ -44,7 +44,7 @@ ul.serie-info {
 	margin-top: -15%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background: hsl(180, 2%, 32%);
+	background: #505454;
 }
 
 #menu_Nav1{
@@ -53,9 +53,13 @@ ul.serie-info {
 	font-size: 1.3em ;
 	margin-left: 25%;
 }
+.lienNav{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
 
 /*modification de la couleur des liens du site*/
-a:link {text-decoration:none; color:white}
-a:visited {text-decoration:none; color:white}
+/*a:link {text-decoration:none; color:white}
+a:visited {text-decoration:none; color:white}*/
 
 

@@ -3,6 +3,7 @@
 		<meta charset="utf-8" />
 		<title>Les Jeux</title>
 		<link rel = "stylesheet" type ="text/css"	href ="style_page_web.css"/>
+        
 	</head>
 	<body>
 		<header>

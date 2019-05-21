@@ -7,18 +7,19 @@
 			while ($donne=$req -> fetch())
 			{
 		?>
-				<li><a  href="description_Jeux.php?Jeux= <?php echo $Somme; ?>">
-				</br>
+        <li><a class="lienNav" href="description_Jeux.php?Jeux= <?php echo $Somme; ?>">
+				<br>
 		<?php 
 				echo $donne[0]; 
 				++$Somme;
 		?>
-				<BR>
+				<br>
 		<?Php ;
 
 			}
 		?>
-		</li>
+            </a>
+        </li>
 	</ul>
 </nav>
 	

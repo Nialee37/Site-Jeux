@@ -9,15 +9,26 @@ body{
 
 }
 .accueil{
-	padding-left: 10%;
-	 padding-bottom: 2.5%;
-	  height: 7%
+	margin-left: 10%;
+    margin-bottom: 5%;
+    width: 5%;
 	
 }
 .connection{
-	padding-left: 10%;
-	padding-bottom: 2.5%;
-	height: 7%
+	margin-left: 10%;
+	margin-bottom: 5%;
+    width: 5%;
+	
+}
+.admin{
+	margin-left: 10%;
+	margin-bottom: 3%;
+    width: 5%;
+	
+}
+.work{
+	margin-left: 10%;
+    width: 9%;
 	
 }
 .image_A{

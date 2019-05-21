@@ -3,9 +3,15 @@
 <html>
 <head>
   <title>Systeme de connexion</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel = "stylesheet" type ="text/css"	href ="style_page_web.css"/>
 </head>
 <body>
+    <header>
+			<?php 
+				include "./bande_Haut.php";
+			?>	
+    </header>
   <div class="header">
   	<h2>Connexion</h2>
   </div>
